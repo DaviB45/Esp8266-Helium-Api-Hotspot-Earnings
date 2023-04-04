@@ -3,11 +3,11 @@
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "B_ubnt";
-const char* password = "kometprelog";
+const char* ssid = "ssid";
+const char* password = "pass";
 
 const char* api_host = "api.helium.io";
-const char* hotspot_name = "112jHrQYpAHmQHgukcv485i226Ci4kwFSK84NLnSsnVELhj6E44B";
+const char* hotspot_name = "112jHrQYpAHmQHgukcv485i226Ci4kwFSK84NLnSsnVELhj6E44B"; //your gateway id, here is mine for an example
 
 IPAddress local_IP(192, 168, 1, 184);
 IPAddress gateway(192, 168, 1, 1);
